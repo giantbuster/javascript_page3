@@ -43,7 +43,9 @@
                 el = document.getElementById('magic'),
                 word_counter = 0,
                 character_counter = 0;
-                for (var i=0; i<words.length; i++){ words[i] = words[i].replace(/ /g, "\u00A0"); }
+                for (var i=0; i<words.length; i++){ 
+                    words[i] = words[i].replace(/ /g, "\u00A0"); 
+                }
 
             function updateText(){
                 //turn words into HTML, and grab characters one by one
